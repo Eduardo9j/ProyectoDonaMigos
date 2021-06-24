@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!–– Iconos !––>
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="estilos.css">
+    
+
+    <title>Document</title>
+</head>
+<body>
+ 
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav__logo">icono</a>
+            </div>
+            
+            <!–– Animaciones de navbar !––>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu bx-tada-hover'></i>
+            </div>
+
+            <!–– Animaciones de contenido !––>
+            <div class="nav__menu" id="nav-menu">
+                <div class="nav__close" id="nav-close">
+                    <i class='bx bx-x '></i>
+                </div>
+
+                <!–– Barra de menu !––>
+
+                <ul class="nav__list">
+           
+                    <li class="nav__item"><a href="#about" class="nav__link">Inicio</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Blog</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contacto</a></li>
+                    <li class="nav__item"><a href="#home" class="nav__link active">Acerca de</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!–– Sección dos !––>
+    <main class="l-main">
+        <section class="home" id="home">
+            <div class="home__container bd-grid">
+                <div class="home__img">
+                    <img src="images/filas1.png" alt="" data-speed="-2" class="move">
+                    <img src="images/imagen.png" alt="" data-speed="2" class="move">
+                    <img src="images/imagen.png" alt="" data-speed="2" class="move">
+                    <img src="images/imagen.png" alt="" data-speed="-2" class="move">
+                    <img src="images/imagen.png" alt="" data-speed="-2" class="move">
+                    
+                </div>
+
+                <div class="home__data">
+                    <h1 class="home__title">Donación<br>alimentos</h1>
+                    <p class="home__description">Descripción  <br> mensaje corto</p>
+                    <a href="#" class="home__button">Descarga aplicación</a> <br><br>
+                    <a href="#" class="home__button">Instructivo</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!–– Animaciones !––>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+
+    
+    <script src="js.js"></script>
+</body>
+</html>
